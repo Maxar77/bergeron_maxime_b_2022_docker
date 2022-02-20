@@ -64,6 +64,7 @@ services:
   mongo:
       > permet de spécifier l'image source pour le conteneur
       image: mongo
+      
       > permet de définir le comportement du conteneur en cas d'arrêt du processus, ici reboot
       restart: always
       expose:
